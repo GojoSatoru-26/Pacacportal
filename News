@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('file:///D:/Documents/News/img/pppp.jpg'); /* Add the path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for better readability */
+            border-radius: 10px;
+            padding-bottom: 20px; /* Add padding at the bottom to prevent overlap with background */
+        }
+        .article {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            overflow: hidden; /* Clear float */
+        }
+        .article img {
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            width: 500px; /* Adjust image size as needed */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 40px;
+        }
+        .article h2 {
+            color: #333;
+        }
+        .article p {
+            color: #666;
+        }
+        .article .date {
+            color: #999;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO PACAC HIGH SCHOOL</h1>
+    </header>
+    <div class="container">
+        <div class="article">
+            <img src="file:///D:/Documents/News/img/MMM.jpg" alt="Talent Show">
+            <h2>ANNOUNCEMENT!!!</h2>
+            <p>No Classes today!
+Labor Day!</p>
+            <p class="date">Posted on May 1, 2024</p>
+        </div>
+
+      
+    </header>
+    <div class="container">
+        <div class="article">
+            <img src="file:///D:/Documents/News/img/qqqqq.jpg" alt="Talent Show">
+            <h2>ANNOUNCEMENT!!!</h2>
+            <p>To All Upcoming Grade 7 Students!</p>
+            <p class="date">Posted on April 30, 2024</p>
+        </div>
+        <div class="article">
+            <img src="file:///D:/Documents/News/img/yyyy.jpg" alt="Science Fair">
+            <h2>
+            
+            DepEd Advisory!</h2>
+            <p>On April 29 & 30, 2024 (Monday and Teusday) Asynchronous Classes will be applied. Meaning, there wil be  no face to face  sessions. 
+However, learning materials and modules will be provided by your respective subject teachers. Subject Teachers need to have an accomplishment reports for the  asynchronous  teaching and learning activities. 
+Thank you.
+#ASYNCHRONOUSCLASSES
+#APRIL29-30,2024
+#STAYSAFEANDHYDRATED
+#stayhome!</p>
+            <p class="date">Posted on April 28, 2024</p>
+        </div>
+ <div class="container">
+        <div class="article">
+            <img src="file:///D:/Documents/News/img/ggg.jpg" alt="Talent Show">
+            <h2>CALL FOR APPLICATION FOR TEACHER I POSITION FOR SY 2024-2025</h2>
+            <p>Pacac  High School, announces the Call for Applications for TEACHER applicant position for School Year 2024-2025. 
+All interested applicants are advised to submit their application at the Office of the School Principal  on April 8-12, 2024.
+Kindly refer to the attached Division Memorandum No. 112, Series of 2024 for further information and guidance.
+#DepEdMATATAG
+#DepEdNuevaEcija</p>
+            <p class="date">Posted on March 23, 2024</p>
+        </div>
+        <!-- Add more articles as needed -->
+    </div>
+</body>
+</html>
